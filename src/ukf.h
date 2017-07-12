@@ -23,7 +23,7 @@ public:
   bool use_radar_;
 
   ///* state vector: [pos1 pos2 vel_abs yaw_angle yaw_rate] in SI units and rad
-  VectorXd x_;
+  VectorXd x_ ;
 
   ///* state covariance matrix
   MatrixXd P_;
@@ -67,7 +67,18 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  ///* Sigma point Matrix
+  MatrixXd Xsig_aug_ ;
 
+  ///* state transformation matrix for lidar
+  MatrixXd H_laser_;
+
+  ///* Store NIS Values
+
+  float NIS_lidar_,NIS_radar_;
+
+  ///* noise matrix for lidar
+  MatrixXd R_laser_;
   /**
    * Constructor
    */
