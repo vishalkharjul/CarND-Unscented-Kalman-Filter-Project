@@ -66,16 +66,25 @@ using the following settings:
 
 Please stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html) as much as possible.
 
-## Generating Additional Data
+## Result 
 
-This is optional!
+1. RMSE results after running with Dataset 1 can be found in below image:
 
-If you'd like to generate your own radar and lidar data, see the
-[utilities repo](https://github.com/udacity/CarND-Mercedes-SF-Utilities) for
-Matlab scripts that can generate additional data.
+![Dataset-1](dataset1.png)
 
-## Project Instructions and Rubric
+2. RMSE results after running with Dataset 2 can be found in below image:
 
-This information is only accessible by people who are already enrolled in Term 2
-of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/c3eb3583-17b2-4d83-abf7-d852ae1b9fff/concepts/f437b8b0-f2d8-43b0-9662-72ac4e4029c1)
-for instructions and the project rubric.
+![Dataset-2](dataset2.png)
+
+
+
+3. NIS values graph for LIDAR after running with Dataset 1 can be found in below image:
+
+![NIS_LIDAR](NIS_LIDAR.JPG)
+
+4.  NIS values graph for RADAR after running with Dataset 1 can be found in below image:
+
+![NIS_RADAR](NIS_RADAR.JPG)
+
+
+
